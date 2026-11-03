@@ -1,4 +1,4 @@
-CLUSTER := kai-lab
+CLUSTER := kai
 CONTEXT := kind-$(CLUSTER)
 
 .PHONY: build run test lab lab-down lab-reset
